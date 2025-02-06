@@ -1,0 +1,13 @@
+data:
+  dataPath : data/images/
+  metaDataPath : data/styles.csv
+  processedPath : data/imgs.csv
+  sample : 1000
+  embeddingPath : models/ResNet/embedding.pth
+  imageNames : models/ResNet/image_names.npy
+
+db:
+  indexPath : models/ResNet/vector.DB
+
+hyperParameters :
+  topk : 5

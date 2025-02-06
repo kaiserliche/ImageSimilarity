@@ -10,7 +10,6 @@ def main(query, config):
     searcher = FaissSearcher(index_path=config['db']['indexPath'], names_path= config['data']['imageNames'])
 
     embedding = embedder.get_embedding(query)
-
     results, distances = searcher.search_sim(embedding.reshape(-1), config['hyperParameters']['topk'])
     print(f"Query Image: {query}\n")
     Image.open(f"{query}").show()
