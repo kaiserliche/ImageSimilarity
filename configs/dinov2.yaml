@@ -1,0 +1,13 @@
+data:
+  dataPath : data/images/
+  metaDataPath : data/styles.csv
+  processedPath : data/imgs.csv
+  sample : 1000
+  embeddingPath : models/DinoV2/embedding.pth
+  imageNames : models/DinoV2/image_names.npy
+
+db:
+  indexPath : models/DinoV2/vector.DB
+
+hyperParameters :
+  topk : 5

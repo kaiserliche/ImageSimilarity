@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+
+### custom
+
+
+imsim/
 # C extensions
 *.so
 
